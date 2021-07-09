@@ -4,43 +4,39 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #e7e6e6;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    background: #f7f5f5;
     color: #222;
 }
 
 .book{
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
     justify-content: center;
 }
 .bookList{
-    background-color: cornsilk;
-    margin: 20px;
+    margin: 8px;
     width: 100%;
-    max-width: 250px;
-    text-align: center;
-    border: transparent rgb(187, 184, 184) ;
-    border-radius: 5px;
-    box-shadow: 8px 8px 5px 2px #aaaaaa;
+    max-width: 150px;
+
 }
 
-.title{
-    margin-top: 5px;
-    margin-left: 20px;
-    line-height: 15px;
-    font-size: 17px;
+.title,a{
+    margin: 5px 0;
+    color: #007185;
+    font-size: 14px;
     text-align: start;
+    text-decoration: none;
+    letter-spacing: normal;
 }
 .author{
-    text-align: start;
-    margin: 5px 0px 10px 20px;
-    color: rgb(153, 152, 152);
-    font-weight: bold;
+    text-decoration: none;
+    color: #007185;
+    font-size: 12px;
+    line-height: 16px;
 }
 .img{
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     width: 100%;
-    max-width: 200px;
+    max-width: 180px;
 }
